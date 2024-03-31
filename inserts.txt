@@ -1,0 +1,6 @@
+INSERT INTO cats (name, age) 
+VALUES ('Blue Steele', 5);
+
+//multiple
+insert into cats (name,age)
+values('Beth',2),('Meatball',5),('Turkey',1);
