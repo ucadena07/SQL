@@ -1,0 +1,8 @@
+-CONCAT
+
+select concat(author_fname, ' ',author_lname) as full_name
+from books
+
+-CONCAT_WS (with white space)
+select concat_ws(' - ',author_fname,author_lname) as full_name
+from books
