@@ -6,3 +6,11 @@ from books
 -CONCAT_WS (with white space)
 select concat_ws(' - ',author_fname,author_lname) as full_name
 from books
+
+- SUBSTRING
+select substring('Hello World',1,5);
+select substring('Hello World',7);
+select substring('Hello World',-1);
+
+select concat(substr(title,1,10), '...') as short_title from books
+select concat(substr(author_fname,1,1),'.', substr(author_lname,1,1),'.') as initials from books
