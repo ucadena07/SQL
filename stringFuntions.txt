@@ -14,3 +14,15 @@ select substring('Hello World',-1);
 
 select concat(substr(title,1,10), '...') as short_title from books
 select concat(substr(author_fname,1,1),'.', substr(author_lname,1,1),'.') as initials from books
+
+//Replace 
+select replace('ulises','u','U');
+select char_length('ulises');
+select lower('NIGEL');
+select upper('nigel');
+
+select left('nigel',3);
+select right('nigel',2);
+select repeat('ha',4);
+
+select trim(' boston  ');
